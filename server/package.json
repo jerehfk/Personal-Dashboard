@@ -1,0 +1,13 @@
+{
+  "name": "life-rpg-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.ts",
+    "test": "node --test \"src/**/*.test.ts\""
+  },
+  "dependencies": {
+    "@fastify/static": "^8.0.0",
+    "fastify": "^5.0.0"
+  }
+}
